@@ -18,14 +18,20 @@ body{
     border-bottom:1px solid #00ff00;
     z-index:1;
 }
+.header{
+    width:78%;
+}
+.header-two{
+    display: none;
+}
 .header ul{
     height:59px;
     display: flex;
-    width:1180px;
     justify-content: space-between;
     align-items: center;
     background-color:black;
     list-style-type: none;
+    width:100%;
 }
 .header ul li{
     text-align: center;
@@ -164,7 +170,33 @@ body{
     font-size: 25px;
 }
 
-
+@media (min-width:767px) and (max-width:1200px){
+    .header{
+        display:none;
+    }
+    .header-two{
+        width:98%;
+        display:flex;
+    }
+    .header-two ul{
+        display:flex;
+        height:59px;
+        justify-content: space-between;
+        align-items: center;
+        background-color:black;
+        list-style-type: none;
+        width:100%;   
+    }
+    .header-two img{
+        height:35px;
+        width:35px;
+    }
+    .header-two ul li{
+        text-align: center;
+        color:#BBBBBB;      
+        font-size:1rem;
+    }
+}
 
 
 
