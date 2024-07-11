@@ -170,7 +170,7 @@ body{
     font-size: 25px;
 }
 
-@media (min-width:767px) and (max-width:1200px){
+@media (max-width:1200px){
     .header{
         display:none;
     }
